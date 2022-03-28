@@ -1,0 +1,16 @@
+.tabs-list {
+  margin: 1px;
+}
+.display-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #1e293b;
+  font-weight: 600;
+  background-color: transparent;
+  border: 0px none;
+  border-bottom: 2px solid #7b8794;
+}
+.active-styling-button {
+  border-bottom: 2px solid #0b69ff;
+  color: #0b69ff;
+}

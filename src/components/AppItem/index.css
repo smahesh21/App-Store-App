@@ -1,0 +1,37 @@
+.applist-container {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}
+.app-name {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: 500;
+  color: #1e293b;
+}
+@media screen and (max-width: 576px) {
+  .applist-container {
+    height: 120px;
+    width: 120px;
+  }
+  .image {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+  }
+  .app-name {
+    font-size: 16px;
+  }
+}
